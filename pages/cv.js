@@ -1,18 +1,18 @@
-import Image from 'next/image'
+
 export default function CV() {
     return (
         <div className='container'>
             <div className='box'>
-                <Image src="/mc.jpg" alt="heh" width={250} height={300} />
+                <img src="/mc.jpg" alt="heh" width={250} height={300} />
                 <h1>Батцэнгэл Энхмандал</h1>
                 <h5>Мэргэжил: Програм хангамж</h5>
                 <h5>SISI ID: 20B1NUM1582</h5>
                 <h5>Утасны дугаар: 88469991</h5>
                 <h5>Mail: mandalgej@gmail.com</h5>
                 <ul>
-                    <li><a href="https://www.facebook.com/profile.php?id=100009141991312"><Image src="/Facebook_icon_2013.svg.png" width={50} height={50}/></a></li>
-                    <li><a href="https://www.instagram.com/benkhmandal/"><Image src="/ig.png" width={50} height={50}/></a></li>
-                    <li><a href="https://twitter.com/?lang=en"><Image src="/tw.png" width="50" height="50"/></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100009141991312"><img src="/Facebook_icon_2013.svg.png" alt="fb" width={50} height={50}/></a></li>
+                    <li><a href="https://www.instagram.com/benkhmandal/"><img src="/ig.png" alt="ig" width={50} height={50}/></a></li>
+                    <li><a href="https://twitter.com/?lang=en"><img src="/tw.png" alt="tw" width="50" height="50"/></a></li>
                 </ul>
             </div>
             <div className='box2'>
